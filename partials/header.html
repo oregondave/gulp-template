@@ -1,0 +1,20 @@
+Header
+
+Nav
+<ul>
+	<li id="sec1_trigger">
+		Section 1
+	</li>
+	<li id="sec2_trigger">
+		<a href="">Section 2</a>
+	</li>
+</ul>
+
+
+<script>
+	$("#sec1_trigger").click(function() {
+		$('#content_main').load("/partials/section01.html");
+	});
+
+// $('#content_main').load("/partials/section01.html");
+</script>
