@@ -3,10 +3,10 @@ Header
 Nav
 <ul>
 	<li id="sec1_trigger">
-		Section 1
+		<button>Section 1</button>
 	</li>
 	<li id="sec2_trigger">
-		<a href="">Section 2</a>
+		<button>Section 2</button>
 	</li>
 </ul>
 
@@ -15,6 +15,8 @@ Nav
 	$("#sec1_trigger").click(function() {
 		$('#content_main').load("/partials/section01.html");
 	});
+	$("#sec2_trigger").click(function() {
+		$('#content_main').load("/partials/section02.html");
+	});
 
-// $('#content_main').load("/partials/section01.html");
 </script>
